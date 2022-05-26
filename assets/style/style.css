@@ -95,12 +95,24 @@ main h1 {
     font-weight: 800;
     font-size: 6vw;
     color: var(--font-color);
+    animation: up 3s;
+}
+@keyframes up {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 10;
+    }
 }
 main p {
     font-family: var(--font-principal);
     font-weight: 300;
     font-size: 1.7vw;
     color: var(--font-color);
+    animation: up 6s;
 }
 main button {
     width: 10vw;
@@ -112,9 +124,20 @@ main button {
     font-size: 1.3vw;
     font-weight: 300;
     color: var(--font-color);
+    animation: down 4s;
 }
 main button:hover {
     opacity: 0.9;
+}
+@keyframes down {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 10;
+    }
 }
 /* Nossos Serviços */
 #our-services {
@@ -266,7 +289,7 @@ main button:hover {
 }
 /* Horário de Funcionamento */
 #opening-hours {
-    background-image: url(/assets/imgs/bg-time.jpg);
+    background-image: url("../imgs/bg-time.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
