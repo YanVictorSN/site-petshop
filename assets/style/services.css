@@ -1,0 +1,60 @@
+/* Nossos Serviços */
+#our-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw;
+}
+#our-services h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8vw;
+    font-family: var(--font-principal);
+    color: var(--main-color);
+    font-size: 3.5vw;
+}
+#bg-our-services {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#bg-our-services div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5vw;
+}
+#bg-our-services h3 {
+    font-family: var(--font-principal);
+    font-size: 1.7vw;
+    color: var(--main-color);
+    padding: 3vw;
+    animation: up 3s;
+}
+#bg-our-services p {
+    font-family: var(--font-principal);
+    font-size: 1.5vw;
+    color: var(--main-color);
+    animation: up 4s;
+}
+#our-services button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 3.5vw;
+    border-radius: 2vw;
+    border-style: none;
+    background-color: var(--btn-body-color-);
+    font-family: var(--font-principal);
+    font-size: 1.3vw;
+    font-weight: 300;
+    color: var(--font-color);
+}
+#our-services button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}

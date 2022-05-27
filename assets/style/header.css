@@ -1,0 +1,59 @@
+/* Cabeçalho */
+header {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vw;
+    gap: 20vw;
+    background-color: var(--bg-color);
+    position: fixed;
+}
+/* Logo */
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+#logo a {
+    font-family: var(--font-principal);
+    font-weight: 600;
+    font-size: 1.5vw;
+    color: var(--main-color);
+}
+/* Menu de Navegação */
+header nav {
+    display: flex;
+    align-items: center;
+}
+header a {
+    text-decoration: none;
+}
+header nav a {
+    font-family: var(--font-principal);
+    font-size: 1.3vw;
+    font-weight: 300;
+    padding: 0.6vw;
+    color: var(--main-color);
+}
+header nav a:hover {
+    opacity: 0.8;
+}
+header nav svg {
+    padding: 0.2vw;
+}
+header nav button {
+    width: 10vw;
+    height: 3.5vw;
+    border-radius: 2vw;
+    border-style: none;
+    background-color: var(--btn-color);
+    font-family: var(--font-principal);
+    font-size: 1.3vw;
+    font-weight: 300;
+    color: var(--font-color);
+}
+header nav button:hover {
+    opacity: 0.8;
+}

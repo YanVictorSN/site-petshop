@@ -1,0 +1,40 @@
+/* Animação 
+1 - Main - utton 
+2 - Ask - h4/p
+*/
+@keyframes down {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 10;
+    }
+}
+/* Animação 
+1 - Main - h1/p  
+2 - Our-services - h3/p 
+3 - Opening - h4/p
+*/
+@keyframes up {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 10;
+    }
+}
+/* Animação 
+1 - Presentation - Div/H4/p
+ */
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 10;
+    }
+}
