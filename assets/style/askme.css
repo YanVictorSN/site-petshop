@@ -1,0 +1,80 @@
+/* Pergunte-me qualquer coisa */
+#ask-me-anything {
+    display: flex;
+    padding: 4vw;
+    justify-content: center;
+    gap: 16vw;
+}
+#left-ask-me-anything {
+    width: 100vw;
+}
+#left-ask-me-anything h4 {
+    font-family: var(--font-principal);
+    font-size: 8vh;
+    color: var(--main-color);
+    padding: 1vw;
+    animation: down 3s;
+}
+#left-ask-me-anything p {
+    font-family: var(--font-principal);
+    font-size: 3vh;
+    color: var(--main-color);
+    padding: 1vw;
+    animation: down 4s;
+}
+#inputs-ask-me-anything {
+    padding-top: 2vw;
+}
+#inputs-ask-me-anything input {
+    width: 20vw;
+    height: 8vh;
+    border: none;
+    background-color: var(--bg-color);
+    border-bottom: solid 1px black;
+    font-family: var(--font-principal);
+    color: var(--main-color);
+    font-size: 2.4vh;
+}
+#subject {
+    width: 20vw;
+}
+#inputs-ask-me-anything input:hover {
+    border: solid 1px black;
+}
+#inputs-ask-me-anything textarea {
+    width: 40vw;
+    height: 15vh;
+    background-color: var(--bg-color);
+    border: none; 
+    border-bottom: solid 1px black;
+    font-size: 2.4vh;
+    font-family: var(--font-principal);
+    color: var(--main-color);
+}
+#inputs-ask-me-anything textarea:hover {
+    border: solid 1px black;
+}
+#inputs-ask-me-anything button {
+    width:40vw;
+    height: 8vh;
+    border: none;
+    background-color: var(--main-color);
+    font-family: var(--font-principal);
+    color: var(--font-color);
+    font-size: 2.7vh;  
+}
+#inputs-ask-me-anything button:hover {
+    opacity: 0.7;
+}
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vw;
+    gap: 1vw;
+}
+footer p {
+    color: var(--btn-body-color-);
+}

@@ -1,0 +1,36 @@
+/* Meus Clientes Felizes */
+#happy-clients {
+    height: 50vh;
+    background-color: var(--main-color);
+}
+#happy-clients h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-principal);
+    font-size: 8vh;
+    padding: 5vw;
+    color: var(--font-color);
+}
+#happy-clients p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5vh;
+    font-family: var(--font-principal);
+    color: var(--font-color);
+}
+#img-carousel  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: var(--main-color);
+}
+#img-carousel img {
+    width: 16.4vw;
+}
+#img-carousel img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

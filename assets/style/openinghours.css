@@ -1,0 +1,23 @@
+/* Horário de Funcionamento */
+#opening-hours {
+    background-image: url("../imgs/bg-time.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8vw;
+}
+#opening-hours h4 {
+    font-family: var(--font-principal);
+    color: var(--font-color);
+    font-size: 8vh;
+    padding: 5vw;
+    animation: up 3s;
+}
+#opening-hours p {
+    font-family: var(--font-principal);
+    color: var(--font-color);
+    font-size: 4vh;
+    animation: up 3s;
+}

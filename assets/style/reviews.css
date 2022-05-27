@@ -1,0 +1,28 @@
+/* Reviews */
+#reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#reviews h4 {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-principal);
+    color: var(--main-color);
+    font-size: 8vh;
+    padding: 10vw;
+}
+#bg-reviews {
+    display: flex;
+    width: 80vw;
+}
+.text-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--font-principal);
+    padding: 3vw;
+    gap: 2vw;
+}
